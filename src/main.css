@@ -1,0 +1,34 @@
+.caption {
+        font-size: 1.5rem;
+        font-weight: bold;
+        opacity: 1;
+        transition: 'opacity 0.5s',
+    }
+.captionFadeOut {
+        opacity: 0;
+    }
+
+.nav-link { 
+    text-decoration: none;
+    color: white;
+}
+.add-to-cart-button {
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    width: 100%;
+    height: 40px;
+    transform: translateX(-50%);
+    background-color: #f44336;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .bs-product:hover .add-to-cart-button {
+    opacity: 1;
+  }
