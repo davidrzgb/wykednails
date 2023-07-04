@@ -1,3 +1,4 @@
+import React from 'react';
 export default function ShippingReturn() {
     const styles= {
         dBlock:{
@@ -9,7 +10,6 @@ export default function ShippingReturn() {
             font: 'serif',
             color: '#9C0202',
             textAlign: 'center',
-            fontSize: '17px',
             fontFamily: 'cinzel, serif',
             background: 'transparent',
             fontWeight: '900'
@@ -30,7 +30,6 @@ export default function ShippingReturn() {
             
         },
         font8: {
-            fontSize: '14px',
             lineHeight: 'normal',
             fontFamily: 'serif',
             textAlign: 'left',

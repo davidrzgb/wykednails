@@ -12,11 +12,13 @@ export default function Footer() {
             fontFamily: 'cinzel, Sans-Serif',
         },
         subscriptionContainer: {
-            backgroundColor: ''
+            backgroundColor: 'white',
+            color: 'black'
         },
         font_4: {
             width: '60%',
-            height: '40px;'
+            height: '40px;',
+            backgroundColor: 'white'
         },
         subForm: {
         margin: 'auto;',

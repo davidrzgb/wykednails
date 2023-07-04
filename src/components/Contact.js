@@ -1,4 +1,4 @@
-
+import React from 'react';
 export default function Contact() { 
     const styles = {
         body: {
@@ -75,7 +75,7 @@ export default function Contact() {
     return (
         <div style={styles.body}>
             <div className="contact-img" style={styles.contact}>
-                <img style={styles.image} src="https://static.wixstatic.com/media/634c82_0426726c3a5b43b9858f41132af9293b~mv2.jpg/v1/fill/w_1441,h_392,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/634c82_0426726c3a5b43b9858f41132af9293b~mv2.jpg" />
+                <img alt=" " style={styles.image} src="https://static.wixstatic.com/media/634c82_0426726c3a5b43b9858f41132af9293b~mv2.jpg/v1/fill/w_1441,h_392,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/634c82_0426726c3a5b43b9858f41132af9293b~mv2.jpg" />
                 <h1 style={styles.overlayText}>CONTACT US</h1>
             </div>
             <div className="contact-info" style={styles.contactInfo}>

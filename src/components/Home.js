@@ -214,7 +214,7 @@ export default function Home() {
         <div>
             <div className="video-container" style={styles.videoContainer}>
                 <video style={styles.video} src="https://video.wixstatic.com/video/634c82_385ed295999645839f3f9ecd4fadd358/720p/mp4/file.mp4" autoPlay loop muted />
-                <img style={styles.overlayLogo} src="https://wykednails.nyc3.digitaloceanspaces.com/transparentLogo.png" />
+                <img alt=" " style={styles.overlayLogo} src="https://wykednails.nyc3.digitaloceanspaces.com/transparentLogo.png" />
             </div>
             <div className="home-content" style={styles.homeContent}>
                 <div style={styles.homeContentTitle}>
@@ -242,7 +242,7 @@ export default function Home() {
                 <div className="best-sellers-container" style={styles.bestSellersContainer}>
                     
                     <div className='bs-product' style={styles.product} onMouseEnter={showCart} onMouseLeave={hideCart}>
-                        <img style={styles.bsImage} src="https://static.wixstatic.com/media/8e97c5_a8d46bc741eb46998ab2009ab02b09c4~mv2.jpeg/v1/fill/w_500,h_500,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/8e97c5_a8d46bc741eb46998ab2009ab02b09c4~mv2.jpeg" />
+                        <img alt=" " style={styles.bsImage} src="https://static.wixstatic.com/media/8e97c5_a8d46bc741eb46998ab2009ab02b09c4~mv2.jpeg/v1/fill/w_500,h_500,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/8e97c5_a8d46bc741eb46998ab2009ab02b09c4~mv2.jpeg" />
                         <p style={styles.tag}>Square-Limited Edition</p>
                         <p>Purple Swirls</p>
                         <p>$25.00</p>
@@ -252,7 +252,7 @@ export default function Home() {
                         
                     </div>
                     <div className='bs-product' style={styles.product} onMouseEnter={showCart} onMouseLeave={hideCart}>
-                        <img style={styles.bsImage} src="https://static.wixstatic.com/media/8e97c5_a8d46bc741eb46998ab2009ab02b09c4~mv2.jpeg/v1/fill/w_500,h_500,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/8e97c5_a8d46bc741eb46998ab2009ab02b09c4~mv2.jpeg" />
+                        <img alt=" " style={styles.bsImage} src="https://static.wixstatic.com/media/8e97c5_a8d46bc741eb46998ab2009ab02b09c4~mv2.jpeg/v1/fill/w_500,h_500,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/8e97c5_a8d46bc741eb46998ab2009ab02b09c4~mv2.jpeg" />
                         <p style={styles.tag}>Square-Limited Edition</p>
                         <p>Purple Swirls</p>
                         <p>$25.00</p>
@@ -262,7 +262,7 @@ export default function Home() {
                         
                     </div>
                     <div className='bs-product' style={styles.product} onMouseEnter={showCart} onMouseLeave={hideCart}>
-                        <img style={styles.bsImage} src="https://static.wixstatic.com/media/8e97c5_a8d46bc741eb46998ab2009ab02b09c4~mv2.jpeg/v1/fill/w_500,h_500,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/8e97c5_a8d46bc741eb46998ab2009ab02b09c4~mv2.jpeg" />
+                        <img alt=" " style={styles.bsImage} src="https://static.wixstatic.com/media/8e97c5_a8d46bc741eb46998ab2009ab02b09c4~mv2.jpeg/v1/fill/w_500,h_500,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/8e97c5_a8d46bc741eb46998ab2009ab02b09c4~mv2.jpeg" />
                         <p style={styles.tag}>Square-Limited Edition</p>
                         <p>Purple Swirls</p>
                         <p>$25.00</p>
@@ -272,7 +272,7 @@ export default function Home() {
                         
                     </div>
                     <div className='bs-product' style={styles.product} onMouseEnter={showCart} onMouseLeave={hideCart}>
-                        <img style={styles.bsImage} src="https://static.wixstatic.com/media/8e97c5_a8d46bc741eb46998ab2009ab02b09c4~mv2.jpeg/v1/fill/w_500,h_500,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/8e97c5_a8d46bc741eb46998ab2009ab02b09c4~mv2.jpeg" />
+                        <img alt=" " style={styles.bsImage} src="https://static.wixstatic.com/media/8e97c5_a8d46bc741eb46998ab2009ab02b09c4~mv2.jpeg/v1/fill/w_500,h_500,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/8e97c5_a8d46bc741eb46998ab2009ab02b09c4~mv2.jpeg" />
                         <p style={styles.tag}>Square-Limited Edition</p>
                         <p>Purple Swirls</p>
                         <p>$25.00</p>
@@ -282,7 +282,7 @@ export default function Home() {
                         
                     </div>
                     <div className='bs-product' style={styles.product} onMouseEnter={showCart} onMouseLeave={hideCart}>
-                        <img style={styles.bsImage} src="https://static.wixstatic.com/media/8e97c5_a8d46bc741eb46998ab2009ab02b09c4~mv2.jpeg/v1/fill/w_500,h_500,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/8e97c5_a8d46bc741eb46998ab2009ab02b09c4~mv2.jpeg" />
+                        <img alt=" " style={styles.bsImage} src="https://static.wixstatic.com/media/8e97c5_a8d46bc741eb46998ab2009ab02b09c4~mv2.jpeg/v1/fill/w_500,h_500,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/8e97c5_a8d46bc741eb46998ab2009ab02b09c4~mv2.jpeg" />
                         <p style={styles.tag}>Square-Limited Edition</p>
                         <p>Purple Swirls</p>
                         <p>$25.00</p>
@@ -292,7 +292,7 @@ export default function Home() {
                         
                     </div>
                     <div className='bs-product' style={styles.product} onMouseEnter={showCart} onMouseLeave={hideCart}>
-                        <img style={styles.bsImage} src="https://static.wixstatic.com/media/8e97c5_a8d46bc741eb46998ab2009ab02b09c4~mv2.jpeg/v1/fill/w_500,h_500,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/8e97c5_a8d46bc741eb46998ab2009ab02b09c4~mv2.jpeg" />
+                        <img alt=" " style={styles.bsImage} src="https://static.wixstatic.com/media/8e97c5_a8d46bc741eb46998ab2009ab02b09c4~mv2.jpeg/v1/fill/w_500,h_500,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/8e97c5_a8d46bc741eb46998ab2009ab02b09c4~mv2.jpeg" />
                         <p style={styles.tag}>Square-Limited Edition</p>
                         <p>Purple Swirls</p>
                         <p>$25.00</p>

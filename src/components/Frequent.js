@@ -1,7 +1,7 @@
 import './Frequent.css';
 import './frequent1.png';
 import '../images/frequentlyAquestions/frequent.png';
-
+import React from 'react';
 export default function Frequent () {
     
     const styles= {
@@ -80,6 +80,7 @@ for (i = 0; i < coll.length; i++) {
    <div class='container'>
         <div class="mySlides">
             <div class="numbertext">1 / 2</div>
+            
             <img src="https://static.wixstatic.com/media/8e97c5_148bc6bf1de341999e16cc25de591905~mv2.png/v1/fill/w_1800,h_1200,al_c,q_90/8e97c5_148bc6bf1de341999e16cc25de591905~mv2.webp"/>
   </div>
 

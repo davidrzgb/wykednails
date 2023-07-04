@@ -11,17 +11,22 @@ import Contact from './Contact';
 import ShippingReturn from './ShippingReturns';
 import StorePolicy from './StorePolicy';
 import Frequent from './Frequent';
-
+import Dashboard from './pages/Dashboard';
+import Addresses from './pages/Addresses';
+import EditAddress from './pages/EditAddress';
+import UserOrders from './pages/UserOrders';
+import LoginSettings from './pages/LoginSettings';
+import Wishlist from './pages/Wishlist';
 
 export default function Header() {
     
 
     const [caption, setCaption] = useState(0);
-    const [showCaption, setShowCaption] = useState(true);
+    const [showCaption] = useState(true);
 
     const styles = {
         header: {
-            backgroundColor: '#9c0404',
+            backgroundColor: 'rgb(156,2,2)',
             color: 'white',
             textAlign: 'center',
             fontFamily: 'cinzel, Sans-Serif',
@@ -76,9 +81,8 @@ export default function Header() {
             height: '50px',
             width: '40%',
             margin: 'auto',
-            hover: "true",
-            
         },
+
 
         dropdownContent: {
             display: "none",
@@ -99,9 +103,6 @@ export default function Header() {
         dropdown: {
             float: 'left',
             overflow: 'hidden',
-          },
-          
-        dropdown: {
             cursor: 'pointer',
             fontSize: '16px',
             border: 'none',
@@ -192,14 +193,14 @@ export default function Header() {
                         <Link to='/home' className='nav-link'>Home</Link>
                         <div style={styles.dropdown} className="dropdown">
                             <button style={styles.dropbtn} class="dropbtn" onclick="myFunction()">Shop
-    <i class="fa fa-caret-down"></i>
-  </button>
-  <div style={styles.dropdownContent} class="dropdownContent" id="myDropdown">
-    <a className='links' style={styles.links} href="#">Link 1</a>
-    <a  className='links' style={styles.links} href="#">Link 2</a>
-    <a className='links' style={styles.links} href="#">Link 3</a>
-  </div>
-  </div> 
+                            <i class="fa fa-caret-down"></i>
+                            </button>
+                            <div style={styles.dropdownContent} class="dropdownContent" id="myDropdown">
+                            <a className='links' style={styles.links} href="/">Link 1</a>
+                            <a  className='links' style={styles.links} href="/">Link 2</a>
+                            <a className='links' style={styles.links} href="/">Link 3</a>
+                            </div>
+                        </div> 
                         <Link to='/shop' className='nav-link'>Shop</Link>
                         <Link to='/about' className='nav-link'>About</Link>
                         <Link to='/contact' className='nav-link'>Contact</Link>
@@ -217,6 +218,13 @@ export default function Header() {
                     <Route path='/shipping&returns' element={<ShippingReturn/>} />
                     <Route path='/storepolicy' element={<StorePolicy/>}/>
                     <Route path='/frequentlyAskedQuestions' element={<Frequent/>}/>
+                    {/* WILL REQUIRE USER TO BE LOGGED IN */}
+                    <Route path='/dashboard' element={<Dashboard/>} />
+                    <Route path='/addresses' element={<Addresses/>} />
+                    <Route path='/editaddresses' element={<EditAddress/>} />
+                    <Route path='/userorders' element={<UserOrders/>} />
+                    <Route path='/editdetails' element={<LoginSettings/>}/>
+                    <Route path='/userwishlist' element={<Wishlist/>}/>
                 </Routes>
             </Router>
         </div>
